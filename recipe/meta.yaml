@@ -17,7 +17,7 @@ source:
     - find_package_deps.patch
 
 build:
-  number: 0
+  number: 1
   # clair is a Clang LibTooling tool; no Windows support upstream.
   skip: true  # [win]
 
